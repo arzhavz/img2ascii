@@ -11,7 +11,7 @@ def main():
 
     parser.add_argument('--path', required=True, help='Path to the input image')
     parser.add_argument('--display', type=float, default=0.001, help='Character display delay in seconds')
-    parser.add_argument('--save', action='store_true', help='Save the ASCII art to a text file')
+    parser.add_argument('--save', action='store_true', help='Save the ASCII art to a text file', default=False)
     parser.add_argument('--width', type=int, help='Width of ASCII art (chars)', default=200)
     parser.add_argument('--height', type=int, help='Height of ASCII art (chars)', default=100)
 
