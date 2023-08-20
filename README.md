@@ -1,7 +1,7 @@
 # img2ascii
 Membuat ASCII Art dari gambar.
 
-# Usage
+# Usage as Class
 
 ```python
 # Import kelas ASCIIArtGenerator
@@ -21,4 +21,10 @@ ascii_art = Generator.generate_ascii_art(image_path, new_height=100, new_width=2
 
 # Menampilkan ASCII art di konsol dengan delay perkarakter 0.001 detik
 Generator.display(ascii_art, delay=0.001)
+```
+
+# Usage as CLI
+
+```sh
+python sample.py --path path/to/your/image.jpg
 ```
